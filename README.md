@@ -25,7 +25,10 @@ Based on SailsJS Skipper S3 adapter for receiving [upstreams](https://github.com
 1. Make sure you have graphicmagick installed.
 2. Make sure you have skipper itself [installed as your body parser](http://beta.sailsjs.org/#/documentation/concepts/Middleware?q=adding-or-overriding-http-middleware).  This is the default configuration in [Sails](https://github.com/balderdashy/sails) as of v0.10.
 
-3. Run `npm install skipper-s3-resizer --save`
+3. Run in your console: 
+```
+  npm install skipper-s3-resizer --save
+```
 
 ## Usage
 1. In Controller:

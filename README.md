@@ -20,7 +20,7 @@ This is extended **skipper-s3-resizer**  based on - [Original skipper-s3-resize]
 
 Based on SailsJS Skipper S3 adapter for receiving [upstreams](https://github.com/balderdashy/skipper#what-are-upstreams) with a twist: Images will be resized before uploading using GraphicMagick.
 
-## Installation (recommended option)
+## Installation
 
 1. Make sure you have graphicmagick installed.
 2. Make sure you have skipper itself [installed as your body parser](http://beta.sailsjs.org/#/documentation/concepts/Middleware?q=adding-or-overriding-http-middleware).  This is the default configuration in [Sails](https://github.com/balderdashy/sails) as of v0.10.

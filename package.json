@@ -1,0 +1,38 @@
+{
+  "name": "skipper-s3-resizer",
+  "version": "1.0.0",
+  "description": "Streaming file uploads to S3 and resize images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "TomSento"
+  },
+  "dependencies": {
+    "concat-stream": "~1.4.5",
+    "fs-extra": "~0.8.1",
+    "gm": "^1.17.0",
+    "knox": "~0.8.9",
+    "knox-mpu-alt": "~0.1.9",
+    "lodash": "~3.10.1",
+    "merge-defaults": "~0.1.0",
+    "mime": "~1.2.11",
+    "resizer": "0.0.6",
+    "s3-lister": "~0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TomSento/skipper-s3-resizer"
+  },
+  "bugs": {
+    "url": "https://github.com/TomSento/skipper-s3-resizer/issues"
+  },
+  "maintainers": [
+    {
+      "name": "TomSento",
+      "email": "tsentkeresty@gmail.com"
+    }
+  ],
+  "license": "MIT"
+}

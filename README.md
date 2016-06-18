@@ -47,6 +47,9 @@ Based on SailsJS Skipper S3 adapter for receiving [upstreams](https://github.com
         stretch: false,
         width: <WIDTH>,
         height: <HEIGHT>
+      },
+      headers: { 
+        'x-amz-acl': 'public-read'
       }
     }, function(err, uploadedFiles) {
       if(err) return res.serverError(err);
@@ -54,6 +57,10 @@ Based on SailsJS Skipper S3 adapter for receiving [upstreams](https://github.com
       });
     }
 ```
+
+**More info about headers:**
+* [s3 acl headers](http://docs.aws.amazon.com/AmazonS3/latest/API/RESTObjectPUTacl.html#put-objectacl-acl-specific-request-headers)
+* [knox put](https://github.com/Automattic/knox#put)
 
 ## References
 1. [Original skipper-s3-resize](https://github.com/basicinception/skipper-s3-resize "Original")

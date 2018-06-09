@@ -1,3 +1,5 @@
+DEPRECATED - PLEASE FIND ANOTHER ALTERNATIVE - REPOSITORY WILL BE REMOVED 1.1.2019
+
 # skipper-s3-resizer
 
 This is extended **skipper-s3-resizer**  based on - [Original skipper-s3-resize](https://github.com/basicinception/skipper-s3-resize "Original")
